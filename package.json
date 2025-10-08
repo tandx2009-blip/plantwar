@@ -1,0 +1,21 @@
+{
+  "name": "tower-defense-game",
+  "version": "1.0.0",
+  "description": "2D塔防游戏 - 类似植物大战僵尸",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -a 0.0.0.0 -o",
+    "dev": "npx http-server -p 8080 -a 0.0.0.0"
+  },
+  "keywords": ["game", "tower-defense", "phaser", "2d"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.70.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
+
+
